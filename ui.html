@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>作品展示/UI</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/DB_gallery.css">
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.DB_gallery.js"></script>
+	</head>
+	<body>
+		<div id="box"><div id="ti"><img src="img/pen.png">&nbsp;作品展示/UI</div>
+		<center>
+			 <div id="DB_gallery">
+    <div class="DB_imgSet">
+      <div class="DB_imgWin"><img src="img/img1.jpg" alt=""/></div>
+      <div class="DB_page"><span class="DB_current">0</span>-<span class="DB_total">0</span></div>
+      <div class="DB_prevBtn"><img src="img/prev_off.png" alt="jquery相册"/></div>
+      <div class="DB_nextBtn"><img src="img/next_off.png" alt="图片相册"/></div>
+    </div>
+    <div class="DB_thumSet">
+      <ul class="DB_thumMove">
+        <li><a href="works/UI/chronograph1.jpg"><img src="works/UI/chronograph11.jpg" alt="图片相册"/></a></li>
+        <li><a href="works/UI/chronograph2.jpg"><img src="works/UI/chronograph21.jpg" alt="jquery相册"/></a></li>
+        <li><a href="works/UI/clock1.jpg"><img src="works/UI/clock11.jpg" alt="图片相册"/></a></li>
+        <li><a href="works/UI/colock2.jpg"><img src="works/UI/colock21.jpg" alt="jquery相册"/></a></li>
+        <li><a href="works/UI/compass1.jpg"><img src="works/UI/compass11.jpg" alt="图片相册"/></a></li>
+        <li><a href="works/UI/compass2.jpg"><img src="works/UI/compass21.jpg" alt="图片相册"/></a></li>
+        <li><a href="works/UI/compass3.jpg"><img src="works/UI/compass31.jpg" alt="jquery相册"/></a></li>
+        <li><a href="works/UI/player1.jpg"><img src="works/UI/player11.jpg" alt=""/></a></li>
+        <li><a href="works/UI/set.gif"><img src="works/UI/set1.jpg" alt=""/></a></li>
+        <li><a href="works/UI/timer.jpg"><img src="works/UI/timer1.jpg" alt=""/></a></li>
+        <li><a href="works/UI/torch1.jpg"><img src="works/UI/torch11.jpg" alt="网页特效"/></a></li>
+        <li><a href="works/UI/torch2.jpg"><img src="works/UI/torch21.jpg" alt=""/></a></li>
+      </ul>
+      <div class="DB_thumLine"></div>
+      <div class="DB_prevPageBtn"><img src="img/prev_page.png" alt="上一页"/></div>
+      <div class="DB_nextPageBtn"><img src="img/next_page.png" alt="下一页"/></div>
+    </div>
+  </div>
+   <script type="text/javascript">
+	$('#DB_gallery').DB_gallery({
+		thumWidth:110,            
+		thumGap:8,                
+		thumMoveStep:4,           
+		moveSpeed:300,            
+		fadeSpeed:500            
+	});
+</script>
+		</center>
+		</div>
+	</body>
+</html>
