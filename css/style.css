@@ -1,0 +1,103 @@
+body {
+	margin: 0 20px;
+	background: #444;
+	font-family: "黑体";
+	color: #bbb;
+}
+#box {
+	width: 1002px;
+	margin: 0 auto;
+}
+a {
+	color:#eee;
+	text-decoration: none;
+}
+#nav {
+	margin: 0 auto;
+	padding: 10px 0;
+	background: #444;
+	font-size: 18pt;
+}
+#title {
+	width: 50%;
+	float: left;
+}
+#ln {
+	float: right;
+}
+#name {
+	width: 60%;
+}
+.link {
+	text-align: right;
+}
+#pic {
+	float: right;
+	padding-top: 50px;
+}
+#pic img {
+	width: 300px;
+}
+#intr {
+	font-size: 20pt;
+	padding-top: 300px;
+}
+#cover {
+	float: left;
+	padding-top: 50px;
+}
+#cover img {
+	width: 350px;
+}
+#wor {
+	float: right;
+	padding-top: 200px;
+	font-size: 20pt;
+}
+#cont {
+	float: left;
+	margin: 50px auto;
+}
+#cont p {
+	padding: 10px 10px 10px 10px;
+	font-size: 20pt;
+}
+#cont td {
+	text-align: center;
+	width: 220px;
+}
+.logo {
+
+}
+.tdc img {
+	width: 125px;
+}
+#content {
+	margin: 50px auto;
+	font-size: 20pt;
+}
+#content table {
+	margin: 50px auto;
+}
+.til {
+	text-align: center;
+}
+.right {
+	position:absolute;
+	right: 20px;
+}
+#biao {
+	width: 1002px;
+	margin: 50px auto;
+	font-size: 20pt;
+}
+.right,#ui {
+	position: inherit;
+	text-align: right;
+}
+.left,#ui {
+	vertical-align: bottom;
+}
+#biao div {
+	margin: 125px auto;
+}
